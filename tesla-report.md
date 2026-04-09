@@ -141,7 +141,7 @@
 |----------|----------|-----|
 | Dalhousie Sexton / Morris St 🔌 (free, billing broken) | 132 | 1,371.5 |
 | Aulac Road, Aulac (NB) — Irving Big Stop ⛽ (Superchargers + Irving DC charger, overnight rest stop) | 12 | 192.5 |
-| Purdy's Wharf Parkade, Halifax | 11 | 161.9 |
+| Purdy's Wharf Parkade, Halifax 🎵 (charges while playing Saturday nights at the Lower Deck) | 11 | 161.9 |
 | Cutler Avenue 645, Dartmouth | 10 | 52.8 |
 | Mallard Drive, Sackville | 8 | 152.1 |
 | Dalhousie University, Halifax | 7 | 86.3 |
