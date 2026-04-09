@@ -120,7 +120,7 @@
 | School → Home | 95 | 22.1 km | 27 min |
 | **Total** | **219** | **4,163 km** | — |
 
-*Note: School→Home is longer route, likely includes errands*
+*Morning: city route through Dartmouth/Halifax (16.6 km avg) · Afternoon: highway bypass (22.1 km avg, avoids afternoon city traffic)*
 
 ---
 
