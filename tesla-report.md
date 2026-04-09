@@ -101,8 +101,7 @@
 
 | Location | Sessions | kWh |
 |----------|----------|-----|
-| Dalhousie University Sexton Campus | 84 | 776.1 |
-| Morris Street 5303, Halifax | 48 | 595.4 |
+| Dalhousie Sexton / Morris St 🔌 (free, billing broken) | 132 | 1,371.5 |
 | Aulac Road, Aulac (NB highway) | 12 | 192.5 |
 | Purdy's Wharf Parkade, Halifax | 11 | 161.9 |
 | Cutler Avenue 645, Dartmouth | 10 | 52.8 |
@@ -129,9 +128,15 @@
 - **Total:** 884 km, 148 kWh
 - **Efficiency:** 168 Wh/km
 
-### Glen Arbour (Golf)
-- **Trips from home:** 8
+### Glen Arbour (Deerfield Pub 🎸)
+- **Trips from home:** 37
 - **Average distance:** 39 km
+- **Context:** Regular music gigs (e.g., last Friday)
+
+### Fredericton Gig (Sept 8, 2025)
+- Mallard Dr → Fredericton: 226 km
+- Finished 10pm, drove all night
+- 9am class in Halifax next day (no sleep)
 
 ---
 
@@ -148,7 +153,7 @@
 | Eisener Boulevard, Dartmouth | 54 | 140 |
 | Morris Street 5303, Halifax | 48 | 469 |
 | Halifax West High School | 43 | 656 |
-| Glen Arbour, Hammonds Plains | 37 | 421 |
+| Glen Arbour, Hammonds Plains 🎸 (Deerfield Pub gigs) | 37 | 421 |
 | Celtic Drive 43, Dartmouth | 31 | 78 |
 | Aulac Road, Aulac (NB) | 28 | 783 |
 
