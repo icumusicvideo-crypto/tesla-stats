@@ -74,6 +74,44 @@
 
 ---
 
+## 🔋 Battery Health & Degradation
+
+**Analysis method:** Charge delta (energy added ÷ SOC change × 100)
+**Valid charge sessions:** 662 (filtered to 50–70 kWh estimates)
+
+| Metric | Value |
+|--------|-------|
+| **Average capacity** | **58.7 kWh** (±3.7 kWh noise) |
+| Early period (Jan–Mar 2025) | 58.2 kWh |
+| Late period (Jan–Mar 2026) | 59.2 kWh |
+| **Estimated degradation** | **-1.6%** (within measurement noise) |
+| Projected 80% health | ~300,000+ km |
+
+### Monthly Capacity Estimates
+
+| Month | Capacity (kWh) | Sessions |
+|-------|----------------|----------|
+| 2025-01 | 58.6 | 13 |
+| 2025-02 | 57.5 | 70 |
+| 2025-03 | 58.7 | 84 |
+| 2025-04 | 59.6 | 41 |
+| 2025-05 | 59.2 | 41 |
+| 2025-06 | 58.6 | 34 |
+| 2025-07 | 58.4 | 78 |
+| 2025-08 | 57.8 | 40 |
+| 2025-09 | 58.4 | 32 |
+| 2025-10 | 59.7 | 38 |
+| 2025-11 | 60.1 | 33 |
+| 2025-12 | 57.9 | 41 |
+| 2026-01 | 58.3 | 32 |
+| 2026-02 | 58.8 | 31 |
+| 2026-03 | 59.3 | 43 |
+| 2026-04 | 59.7 | 11 |
+
+**Verdict:** LFP chemistry is doing its job. <2% degradation over 15 months / 28,700 km is textbook performance. The ±3–4 kWh standard deviation means measurement noise is ~6–7%, so any real degradation under ~5% is undetectable with this method.
+
+---
+
 ## Commute: Home ↔ Halifax West High School
 
 | Direction | Trips | Avg Distance | Avg Duration |

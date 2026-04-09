@@ -108,12 +108,35 @@
             </div>
 
             <div class="card">
+                <h2>🔋 Battery Health</h2>
+                <div class="chart-container">
+                    <canvas id="batteryHealth"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- Battery Stats -->
+        <div class="grid">
+            <div class="card full-width">
+                <h2>🔋 Battery Capacity Trend</h2>
+                <div class="stat-grid" style="margin-top: 15px;">
+                    <div class="stat"><div class="stat-value">58.7</div><div class="stat-label">Avg capacity (kWh)</div></div>
+                    <div class="stat"><div class="stat-value highlight">-1.6%</div><div class="stat-label">Degradation (15 mo)</div></div>
+                    <div class="stat"><div class="stat-value">28,711</div><div class="stat-label">Total km</div></div>
+                    <div class="stat"><div class="stat-value">~300k</div><div class="stat-label">km to 80% health</div></div>
+                </div>
+                <p style="text-align: center; margin-top: 15px; color: #888; font-size: 0.9rem;">LFP chemistry: famously durable. Your pack is holding up perfectly.</p>
+            </div>
+        </div>
+
+        <!-- Charts Row 2 -->
+        <div class="grid">
+            <div class="card">
                 <h2>🌡️ Efficiency by Temperature</h2>
                 <div class="chart-container">
                     <canvas id="tempEfficiency"></canvas>
                 </div>
             </div>
-        </div>
 
         <!-- Charts Row 2 -->
         <div class="grid">
@@ -301,6 +324,39 @@
                 },
                 scales: {
                     y: { beginAtZero: true, grid: { color: '#333' } },
+                    x: { grid: { color: '#333' } }
+                }
+            }
+        });
+
+        // Battery Health Chart
+        new Chart(document.getElementById('batteryHealth'), {
+            type: 'line',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec', 'Jan', 'Feb', 'Mar', 'Apr'],
+                datasets: [{
+                    label: 'kWh',
+                    data: [58.6, 57.5, 58.7, 59.6, 59.2, 58.6, 58.4, 57.8, 58.4, 59.7, 60.1, 57.9, 58.3, 58.8, 59.3, 59.7],
+                    borderColor: '#4ecca3',
+                    backgroundColor: 'rgba(78, 204, 163, 0.1)',
+                    borderWidth: 2,
+                    fill: true,
+                    tension: 0.3
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: false }
+                },
+                scales: {
+                    y: { 
+                        min: 55, 
+                        max: 62,
+                        title: { display: true, text: 'Capacity (kWh)' },
+                        grid: { color: '#333' } 
+                    },
                     x: { grid: { color: '#333' } }
                 }
             }
