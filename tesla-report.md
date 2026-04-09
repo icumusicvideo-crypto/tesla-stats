@@ -119,7 +119,7 @@
 | Date | Route | Distance | Duration |
 |------|-------|----------|----------|
 | 30/07/2025 | Rue de Gentilly Est, Longueuil → Chemin d'Azur, Saint-Vallier | 276 km | 157 min |
-| 08/09/2025 | Mallard Drive, Sackville → Old Dept Building, Quebec City | 226 km | 131 min |
+| 08/09/2025 | Mallard Drive, Sackville → Old Dept Building, Fredericton (NB) | 226 km | 131 min |
 | 31/07/2025 | eCharge Hanwell → eCharge Sackville Parish | 225 km | 124 min |
 | 08/09/2025 | Halifax West HS → Mallard Drive, Sackville | 217 km | 124 min |
 | 17/03/2026 | Green Village → eCharge Sackville Parish | 208 km | 123 min |
